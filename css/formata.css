@@ -1,0 +1,95 @@
+html {
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Lucida Sans';
+}
+
+main {
+    width: 900px;
+    margin: auto;
+}
+
+#content {
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+}
+
+.box {
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid antiquewhite;
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    float: right;
+
+}
+
+.box img {
+    width: 100px;
+}
+
+.box .claro{
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #f00;
+    padding: 10px;
+    box-shadow: 5px 5px 4px 4px #f00;
+}
+
+.box .oi{
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #fff000;
+    padding: 10px;
+    box-shadow: 5px 5px 4px 4px#fff000;
+}
+
+aside {
+    border-radius: 0px 20px 20px 0px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px 2px #4f4d4d;
+    height: 879.10px;
+    width: 43%;
+    float: left;
+    text-align: center;
+    line-height: 800px;
+    padding: 10px;
+}
+
+address form {
+    border-radius: 0px 20px 20px 20px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px 2px #4f4d4d;
+    padding: 10px;
+    height: 100px;
+    text-align: center;
+
+}
+
+address form p {
+    display: inline-block;
+}
+
+address form button {
+    margin: auto;
+    display: block;
+}
+
+footer {
+    border-radius: 20px 20px 0 0;
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px 2px #4f4d4d;
+    width: 900px;
+    margin-top: 20px;
+    height: 50px;
+    text-align: center;
+    font-size: 13pt;
+}
+
+address form,
+footer {
+    clear: both;
+}
